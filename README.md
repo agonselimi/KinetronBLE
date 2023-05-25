@@ -13,3 +13,8 @@
 - Get the repository on your local machine
 - Run `yarn install`
 - Run `yarn ios` or `yarn android`
+
+### Examples: 
+
+<img width="403" alt="Screenshot 2023-05-25 at 14 25 12" src="https://github.com/agonselimi/KinetronBLE/assets/52735859/56e5d487-f1cf-4c9e-8540-2683ef51c0df">
+<img width="403" alt="Screenshot 2023-05-25 at 14 25 38" src="https://github.com/agonselimi/KinetronBLE/assets/52735859/d0cd222f-9c6b-412e-af72-01fdcf9fa50f">
