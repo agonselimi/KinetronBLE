@@ -1,0 +1,600 @@
+{
+  "nf": "KinetronSTFS",
+  "pk": "000000000000",
+  "name": "Kinetron Smart Shower Service",
+  "uuid": "e6221400-e12f-40f2-b0f5-aaa011c0aa8d",
+  "e6221401-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current shower ID",
+    "uuid": "e6221401-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1401",
+    "handle": {
+      "description": "0012",
+      "value": "0010"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 4
+  },
+  "e6221402-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Real Time Water Temperature",
+    "uuid": "e6221402-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1402",
+    "handle": {
+      "description": "0016",
+      "value": "0014"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "Celcius"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 2
+  },
+  "e6221403-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Average Shower Water Temperature",
+    "uuid": "e6221403-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1403",
+    "handle": {
+      "description": "001a",
+      "value": "0018"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "Celcius"
+    },
+    "properties": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 2
+  },
+  "e6221404-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Total Water consumption",
+    "uuid": "e6221404-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1404",
+    "handle": {
+      "description": "001e",
+      "value": "001c"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 4
+  },
+  "e6221405-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current Shower Water Flow",
+    "uuid": "e6221405-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1405",
+    "handle": {
+      "description": "0022",
+      "value": "0020"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l/sec"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 4
+  },
+  "e6221406-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current Shower Duration",
+    "uuid": "e6221406-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1406",
+    "handle": {
+      "description": "0026",
+      "value": "0024"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "sec"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 2
+  },
+  "e6221407-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current Shower Timestamp",
+    "uuid": "e6221407-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1407",
+    "handle": {
+      "description": "002a",
+      "value": "0028"
+    },
+    "data": {
+      "value": 0,
+      "type": "datetime",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 4
+  },
+  "e6221408-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Device's Lifetime Water consumption",
+    "uuid": "e6221408-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1408",
+    "handle": {
+      "description": "002e",
+      "value": "002c"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 4
+  },
+  "e6221409-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Average Lifetime Water Temperature",
+    "uuid": "e6221409-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1409",
+    "handle": {
+      "description": "0032",
+      "value": "0030"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "Celcius"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 2
+  },
+  "e622140a-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Binary data of completed shower",
+    "uuid": "e622140a-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "140a",
+    "handle": {
+      "description": "0036",
+      "value": "0034"
+    },
+    "data": {
+      "value": 0,
+      "type": "struct",
+      "unit": "none"
+    },
+    "type": "hex",
+    "unit": "none",
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 18
+  },
+  "e622140b-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Product ID",
+    "uuid": "e622140b-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "140b",
+    "handle": {
+      "description": "0039",
+      "value": "0038"
+    },
+    "data": {
+      "value": 0,
+      "type": "hex",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 6
+  },
+  "e622140c-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current battery voltage",
+    "uuid": "e622140c-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "140c",
+    "handle": {
+      "description": "003d",
+      "value": "003b"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "V"
+    },
+    "propertiy": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    },
+    "bytes": 2
+  },
+  "e6221501-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "First level threshold value",
+    "uuid": "e6221501-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1501",
+    "handle": {
+      "description": "0041",
+      "value": "0040"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221502-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Second level threshold value",
+    "uuid": "e6221502-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1502",
+    "handle": {
+      "description": "0044",
+      "value": "0043"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221503-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Third level threshold value",
+    "uuid": "e6221503-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1503",
+    "handle": {
+      "description": "0047",
+      "value": "0046"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "l"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221504-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Current device time",
+    "uuid": "e6221504-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1504",
+    "handle": {
+      "description": "004a",
+      "value": "0049"
+    },
+    "data": {
+      "value": 0,
+      "type": "time",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "no",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221505-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "First level RGB LED color",
+    "uuid": "e6221505-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1505",
+    "handle": {
+      "description": "004d",
+      "value": "004c"
+    },
+    "data": {
+      "value": 0,
+      "type": "colour",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221506-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Second level RGB LED color",
+    "uuid": "e6221506-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1506",
+    "handle": {
+      "description": "0050",
+      "value": "004f"
+    },
+    "data": {
+      "value": 0,
+      "type": "colour",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221507-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Third level RGB LED color",
+    "uuid": "e6221507-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1507",
+    "handle": {
+      "description": "0053",
+      "value": "0052"
+    },
+    "data": {
+      "value": 0,
+      "type": "colour",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221508-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Fourth level RGB LED color",
+    "uuid": "e6221508-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1508",
+    "handle": {
+      "description": "0056",
+      "value": "0055"
+    },
+    "data": {
+      "value": "#FFFFFF",
+      "type": "colour",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221509-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Temperature level RGB LED color",
+    "uuid": "e6221509-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1509",
+    "handle": {
+      "description": "0059",
+      "value": "0058"
+    },
+    "data": {
+      "value": "#FFFFFF",
+      "type": "colour",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e622150a-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Shower history erase",
+    "uuid": "e622150a-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "150a",
+    "handle": {
+      "description": "005c",
+      "value": "005b"
+    },
+    "data": {
+      "value": 0,
+      "type": "hex",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "no",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e622150b-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Application version",
+    "uuid": "e622150b-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "150b",
+    "handle": {
+      "description": "005f",
+      "value": "005e"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "no",
+      "encrypted": "no"
+    }
+  },
+  "e622150c-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Bootloader version",
+    "uuid": "e622150c-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "150c",
+    "handle": {
+      "description": "0062",
+      "value": "0061"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "no",
+      "encrypted": "no"
+    }
+  },
+  "e622150d-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "All Configurations",
+    "uuid": "e622150d-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "150d",
+    "handle": {
+      "description": "0066",
+      "value": "0064"
+    },
+    "data": {
+      "value": "00",
+      "type": "hex_struct",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "no"
+    }
+  },
+  "e622150e-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Factory reset",
+    "uuid": "e622150e-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "150e",
+    "handle": {
+      "description": "0068",
+      "value": "0067"
+    },
+    "data": {
+      "value": 0,
+      "type": "hex",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "no",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "no"
+    }
+  },
+  "e6221601-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Download shower history",
+    "uuid": "e6221601-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1601",
+    "handle": {
+      "description": "006c",
+      "value": "006b"
+    },
+    "data": {
+      "value": 0,
+      "type": "hex",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "no",
+      "writable": "yes",
+      "notifiable": "no",
+      "encrypted": "yes"
+    }
+  },
+  "e6221602-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Available Shower Records",
+    "uuid": "e6221602-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1602",
+    "handle": {
+      "description": "0070",
+      "value": "006e"
+    },
+    "data": {
+      "value": 0,
+      "type": "number",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "yes",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    }
+  },
+  "e6221603-e12f-40f2-b0f5-aaa011c0aa8d": {
+    "name": "Shower history",
+    "uuid": "e6221603-e12f-40f2-b0f5-aaa011c0aa8d",
+    "id": "1603",
+    "handle": {
+      "description": "0074",
+      "value": "0072"
+    },
+    "data": {
+      "value": 0,
+      "type": "struct",
+      "unit": "none"
+    },
+    "property": {
+      "readable": "no",
+      "writable": "no",
+      "notifiable": "yes",
+      "encrypted": "yes"
+    }
+  }
+}
